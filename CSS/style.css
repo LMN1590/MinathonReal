@@ -57,6 +57,7 @@ footer>div>form{
 }
 .title{
     width: 20%;
+    height: 25%;
 }
 .desc-link{
     height:70%;
@@ -67,4 +68,7 @@ footer>div>form{
 }
 .link{
     width: 20%;
+}
+textarea{
+    resize:none;
 }
