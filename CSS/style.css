@@ -7,12 +7,36 @@
     display: flex;
 }
 header{
-    background-color: aqua;
-    min-height: 75px;
+    background-color: beige;
+    height: 70px;
     justify-content: space-around;
+    margin-bottom: 5px;
 }
 .item-header{
-    background-color: red;
-    min-height: inherit;
+    background-color: lightblue;
+    height: inherit;
     width: 30%;
+}
+.item-header>img{
+    height:100%;
+}
+.item-header>h1{
+    line-height: 60px;
+    text-align: center;
+}
+.item-header>i{
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    font-size: 70px;
+}
+main{
+    height: calc(75vh - 5px);
+    background-color: lightgray;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+footer{
+    height: calc(25vh - 75px);
+    background-color: darkblue;
 }
