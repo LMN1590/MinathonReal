@@ -31,12 +31,29 @@ header{
     font-size: 70px;
 }
 main{
-    height: calc(75vh - 5px);
+    height: calc(70vh - 5px);
     background-color: lightgray;
     overflow: auto;
     margin-bottom: 5px;
 }
 footer{
-    height: calc(25vh - 75px);
+    padding: 5px;
+    height: calc(30vh - 75px);
     background-color: darkblue;
+}
+footer>div>form{
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer>div>form>input{
+    height:100%;
+}
+.footer-left{
+    width: 40%;
+    justify-content: left;
+}
+.footer-right{
+    width:60%;
+    justify-content: right;
 }
