@@ -9,12 +9,12 @@ function init(){
         a.setAttribute("onclick","updatePlaceHolder(this.children[0].innerHTML)");
         
     }
-    dict['Plan']="Vacation to Hawaii \n2 day one night \nwith an ass";
-    dict['Budget']="$1000 per person x 50 participants = $50000";
-    dict['Goal']="To strengthen the bonds between employees";
-    dict['Participants']="50 people planned";
-    dict['Activites']="8h00: Breakfast\n12h00: Lunch\n18h00: Dinner";
-    dict['Location']="Definitely-real Hotel"; 
+    dict['Plan']="+ Vacation to Hawaii with pay\n+ Two day one night \n+ Departure day: appr. 30/4/2022";
+    dict['Budget']="+ About $10.000 \n+ Possible Expenses:\n    - Hotel\n    - Transportation\n    - Insurance\n    - Staff\n    - Necessity";
+    dict['Goal']="+ Team-building activities\n+ Relaxation after a successful year\n+ To improve morale \n+ Better reputation for upcoming staff recruitment.";
+    dict['Participants']="50 people planned - all staff of the company and possible relatives.";
+    dict['Activites']="08h00: Breakfast\n12h00: Lunch\n18h00: Dinner";
+    dict['Location']="+ Hawaii\n"; 
     document.getElementById("id-desc").addEventListener("keypress", submitOnEnter);
 }
 var dict={};
