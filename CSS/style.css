@@ -1,5 +1,5 @@
 *{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -7,18 +7,18 @@
     display: flex;
 }
 header{
-    background-color: beige;
+    background-color: #FFF7B8;
     height: 70px;
     justify-content: space-around;
     margin-bottom: 5px;
 }
 .item-header{
-    background-color: lightblue;
+    background-color: #FFF7B8;
     height: inherit;
     width: 30%;
 }
 .item-header>img{
-    height:100%;
+    height: 100%;
 }
 .item-header>i{
     text-align: right;
@@ -28,19 +28,18 @@ header{
 }
 main{
     height: calc(100vh - 75px);
-    background-color: lightgray;
+    background-color: lightblue;
     overflow: auto;
     padding: 5px;
 }
 .info{
     width:30%;
     height:100%;
-    background-color: aqua;
+    background-color: #B9FFC4;
     padding: 10px 20px;
 }
 .info>.title{
     text-align: center;
-    background-color: lightblue;
 }
 .desc>textarea{
     height: auto;
@@ -50,7 +49,7 @@ main{
 .board{
     width:70%;
     height:100%;
-    background-color: beige;
+    background-color: white;
 }
 .rowes{
     width:100%;
@@ -61,13 +60,13 @@ main{
     justify-content: flex-end;
     flex-flow: column;
     padding: 5px;
-    text-align: center;;
+    text-align: center;
     overflow-y: auto;
     min-width:100px;
     max-width: 300px;
     min-height:100px;
     max-height: 300px;
-    background-color: blueviolet;
+    background-color: #D6F6FF;
 }
 .but{
     min-width: 60px;

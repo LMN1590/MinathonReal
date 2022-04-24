@@ -13,11 +13,13 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <title>Planner</title>
         <link rel="stylesheet" href="CSS/style.css">
+        <!-- JavaScript File-->
+        <script type = "text/javascript" src="JS/script.js"></script>
     </head>
     <body>
         <header class="flex-contain">
             <div class="item-header">
-                <img src="IMG/Poké_Ball_icon.svg.png" alt="Logo">
+                <img src="IMG/logo.png" alt="Logo">
             </div>
             <div class="item-header">
                 <i class="material-icons">menu</i>
@@ -26,7 +28,7 @@
         <main class="flex-contain">
             <aside class="info">
                 <div class="title">
-                    <h1>Placeholder</h1>
+                    <h1 id="realTitle">Placeholder</h1>
                 </div>
                 <div class="desc">
                     <textarea name="desc" id="id-desc" rows="19">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi odio sequi natus laudantium. Ullam nulla quisquam in possimus officia omnis facilis suscipit atque consectetur consequuntur fugiat odit quod, et aliquid.</textarea>
@@ -35,8 +37,8 @@
 
             <aside class="board">
                 <div class="rowes flex-contain" id="row1">
-                    <div class="card flex-contain">
-                        <h2>Title</h2>
+                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                        <h2>Plan</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
@@ -50,8 +52,8 @@
                     
                 </div>
                 <div class="rowes flex-contain" id="row2">
-                    <div class="card">
-                        <h2>Title2</h2>
+                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                        <h2>Budget</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
@@ -61,8 +63,8 @@
                             </button>
                         </div>
                     </div>
-                    <div class="card">
-                        <h2>Title3asdnaisdniawudniwaj</h2>
+                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                        <h2>Goal</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
@@ -72,8 +74,32 @@
                             </button>
                         </div>
                     </div>
-                    <div class="card">
-                        <h2>Title2</h2>
+                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                        <h2>Participants</h2>
+                        <div class="flex-contain buttons">
+                            <button type="button" class="btn btn-primary add-but but">
+                                ADD
+                            </button>
+                            <button type="button" class="btn btn-primary del-but but">
+                                DEL
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="rowes flex-contain" id="row2">
+                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                        <h2>Activites</h2>
+                        <div class="flex-contain buttons">
+                            <button type="button" class="btn btn-primary add-but but">
+                                ADD
+                            </button>
+                            <button type="button" class="btn btn-primary del-but but">
+                                DEL
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                        <h2>Location</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
