@@ -37,13 +37,13 @@
 
             <aside class="board">
                 <div class="rowes flex-contain" id="row1">
-                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                    <div class="card">
                         <h2>Plan</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
                             </button>
-                            <button type="button" class="btn btn-primary del-but but">
+                            <button type="button" class="btn btn-danger del-but but">
                                 DEL
                             </button>
                         </div>
@@ -52,59 +52,59 @@
                     
                 </div>
                 <div class="rowes flex-contain" id="row2">
-                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                    <div class="card">
                         <h2>Budget</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
                             </button>
-                            <button type="button" class="btn btn-primary del-but but">
+                            <button type="button" class="btn btn-danger del-but but">
                                 DEL
                             </button>
                         </div>
                     </div>
-                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                    <div class="card">
                         <h2>Goal</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
                             </button>
-                            <button type="button" class="btn btn-primary del-but but">
+                            <button type="button" class="btn btn-danger del-but but">
                                 DEL
                             </button>
                         </div>
                     </div>
-                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                    <div class="card">
                         <h2>Participants</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
                             </button>
-                            <button type="button" class="btn btn-primary del-but but">
+                            <button type="button" class="btn btn-danger del-but but">
                                 DEL
                             </button>
                         </div>
                     </div>
                 </div>
                 <div class="rowes flex-contain" id="row2">
-                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                    <div class="card">
                         <h2>Activites</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
                             </button>
-                            <button type="button" class="btn btn-primary del-but but">
+                            <button type="button" class="btn btn-danger del-but but">
                                 DEL
                             </button>
                         </div>
                     </div>
-                    <div class="card" onclick="updatePlaceHolder(this.children[0].innerHTML)">
+                    <div class="card">
                         <h2>Location</h2>
                         <div class="flex-contain buttons">
                             <button type="button" class="btn btn-primary add-but but">
                                 ADD
                             </button>
-                            <button type="button" class="btn btn-primary del-but but">
+                            <button type="button" class="btn btn-danger del-but but">
                                 DEL
                             </button>
                         </div>
@@ -114,3 +114,8 @@
         </main>
     </body>
 </html>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        init();
+    });
+</script>

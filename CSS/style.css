@@ -30,7 +30,7 @@ main{
     height: calc(100vh - 75px);
     background-color: lightblue;
     overflow: auto;
-    padding: 5px;
+    padding: 10px;
 }
 .info{
     width:30%;
@@ -76,7 +76,4 @@ main{
 }
 .buttons{   
     justify-content: space-between;
-}
-.del-but{
-    background-color: red;
 }
