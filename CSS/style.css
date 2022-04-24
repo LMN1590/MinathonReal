@@ -20,10 +20,6 @@ header{
 .item-header>img{
     height:100%;
 }
-.item-header>h1{
-    line-height: 60px;
-    text-align: center;
-}
 .item-header>i{
     text-align: right;
     height: 100%;
@@ -31,44 +27,56 @@ header{
     font-size: 70px;
 }
 main{
-    height: calc(70vh - 5px);
+    height: calc(100vh - 75px);
     background-color: lightgray;
     overflow: auto;
-    margin-bottom: 5px;
+    padding: 5px;
 }
-footer{
-    padding: 10px;
-    height: calc(30vh - 75px);
-    background-color: darkblue;
-}
-footer>div>form{
-    width:100%;
+.info{
+    width:30%;
     height:100%;
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px 20px;
 }
-.footer-left{
-    width: 90%;
-    justify-content: left;
+.info>.title{
+    text-align: center;
+    background-color: lightblue;
 }
-.footer-right{
-    width: 10%;
-    justify-content: right;
-}
-.title{
-    width: 20%;
-    height: 25%;
-}
-.desc-link{
-    height:70%;
-    justify-content: space-between;
-}
-.desc{
-    width: 75%;
-}
-.link{
-    width: 20%;
-}
-textarea{
+.desc>textarea{
+    height: auto;
+    width:100%;
     resize:none;
+}
+.board{
+    width:70%;
+    height:100%;
+    background-color: beige;
+}
+.rowes{
+    width:100%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.card{
+    justify-content: flex-end;
+    flex-flow: column;
+    padding: 5px;
+    text-align: center;;
+    overflow-y: auto;
+    min-width:100px;
+    max-width: 300px;
+    min-height:100px;
+    max-height: 300px;
+    background-color: blueviolet;
+}
+.but{
+    min-width: 60px;
+    margin:auto;
+    width:30%;
+}
+.buttons{   
+    justify-content: space-between;
+}
+.del-but{
+    background-color: red;
 }
